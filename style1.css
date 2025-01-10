@@ -23,6 +23,9 @@ body {
   opacity: 0px;
   background-color: #fcf8ca;
 }
+form {
+  font-family: "DM Sans", sans-serif;
+}
 div.card {
   font-family: "Poppins", sans-serif;
 }

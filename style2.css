@@ -23,6 +23,9 @@ body {
   opacity: 0px;
   background-color: #fcf8ca;
 }
+form {
+  font-family: "DM Sans", sans-serif;
+}
 div.card {
   font-family: "Poppins", sans-serif;
 }
@@ -51,23 +54,37 @@ div.card {
   padding: 0 10px;
   background-color: white; /* Latar belakang putih agar teks terlihat jelas */
 }
-/* .google-btn {
-  display: flex;
-  align-items: center;
-  background-color: rgb(251, 252, 255); 
-  color: ;
-  font-size: 16px;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: Arial, sans-serif;
-}
 
-.google-btn:hover {
-  background-color: #357ae8; 
-} */
 .google-btn img {
   width: px;
   margin-right: 10px;
 }
+/** phone number **/
+/* Logo */
+.logo {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+
+  width: 44px;
+  height: 48px;
+
+  /* Other/Base Background */
+  background: #f4f5fa;
+  /* Other/Border */
+  border-right: 1px solid rgba(58, 53, 65, 0.12);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/** phone number **/
+/* Indonesia (ID) */
