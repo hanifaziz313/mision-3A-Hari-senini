@@ -21,7 +21,7 @@ body {
   height: Hug (178px) px;
   gap: 16px;
   opacity: 0px;
-  background-color: #fcf8ca;
+  background-color: #fffdf3;
 }
 form {
   font-family: "DM Sans", sans-serif;
@@ -73,4 +73,14 @@ div.card {
 .google-btn img {
   width: px;
   margin-right: 10px;
+}
+.input-group .form-control {
+  border-right: 0;
+}
+.input-group .btn {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: rgb(223, 220, 220);
+  background-color: #ffffff;
 }
